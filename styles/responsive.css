@@ -11,9 +11,9 @@
     }
 
     .popular-tours,
-    nav {
+    nav,
+    .perfect-place {
         flex-direction: column;
-        /* align-items: flex-start; */
     }
 
     nav .nav-logo {
@@ -139,40 +139,66 @@
         height: 297px;
         padding: 1.3rem;
     }
+
     .discount-card .extra {
         display: none;
     }
+
     .discount-field .discount-card h4 {
         font-size: 1.3rem;
         font-weight: 700;
         padding: 1.3rem 0px .5rem;
     }
+
     .discount-card .primary-btn {
         width: 130px;
         height: 40px;
         font-weight: 600;
         border-radius: .4rem;
     }
+
     .discount-field .discount-card h5 {
         font-weight: 700;
         font-size: 1.3rem;
         padding: 1rem 0 1.3rem 0;
     }
-    .d-card-1, .d-card-3 {
+
+    .d-card-1,
+    .d-card-3 {
         right: 11%;
         top: 35%;
     }
+
     .d-card-2 {
         left: 10%;
         top: 35%;
     }
+
     .discount-field .span-1 {
         padding-right: 5rem;
     }
+
     .discount-field .span {
         line-height: 1rem;
     }
+
     .see-btn-field {
-       display: none;
+        display: none;
+    }
+
+    .perfect-place-left-text {
+        width: 100%;
+    }
+
+    .perfect-place-right-video {
+        width: 100%;
+    }
+
+    .perfect-place-left-text .section-title {
+        padding: 0 0rem 1rem 0;
+    }
+
+    .perfect-place-right-video video {
+        border-radius: 1.5rem;
     }
 }
