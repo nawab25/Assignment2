@@ -37,6 +37,12 @@ nav .nav-list .active {
     border: none;
     cursor: pointer;
     font-weight: 700;
+    transition: all .4s;
+}
+
+.primary-btn:hover {
+    background-color: #da4b03;
+    color: #fff;
 }
 
 .section-title {
@@ -81,7 +87,8 @@ nav .nav-logo {
     align-items: center;
 }
 
-.nav-logo h2 {
+.nav-logo h2,
+.footer-logo h2 {
     margin-left: 1rem;
     color: #131318;
     font-size: 36px;
@@ -424,7 +431,7 @@ select {
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
-
+    padding-bottom: 6rem;
 }
 
 .newsletter-form {
@@ -511,3 +518,45 @@ input[type="email"]:focus {
 }
 
 /* Newsletter Section End */
+
+
+/* Footer Section End */
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 6rem 17rem 4rem;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .section-description {
+    width: 765px;
+    margin: 0 auto;
+    padding: 1rem 0 2rem 0;
+}
+
+.footer-social-icons i {
+    margin-right: 1.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.footer-social-icons i:hover {
+    color: #FF5400;
+}
+
+.footer-social-icons {
+    padding-bottom: 3rem;
+}
+
+.copyright-txt {
+    margin-top: 2.8rem;
+}
+
+/* Footer Section End */
