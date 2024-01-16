@@ -196,7 +196,8 @@ select {
 /* Destination Tour Section Start */
 
 .destination-texts .section-description,
-.facilities-texts .section-description {
+.facilities-texts .section-description,
+.discount-texts .section-description {
     width: 640px;
     padding: 1.5rem 0 3rem;
     margin: 0 auto;
@@ -253,10 +254,8 @@ select {
 
 /* Destination Tour Section End */
 
-/* Facilities Tour Section Start */
-/* .facilities {
-    text-align: center;
-} */
+
+/* Facilities Section Start */
 
 .facilities-cards {
     display: flex;
@@ -298,5 +297,79 @@ select {
     padding: 2rem 0 .7rem 0;
 }
 
+/* Facilities Section End */
 
-/* Facilities Tour Section End */
+/* Discount Section Start */
+.discount-field {
+    min-height: 500px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.discount .field-1,
+.discount .field-3 {
+    background-image: url("../Images/Group-39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.discount .field-2 {
+    background-image: url("../Images/Group-40.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-size: cover;
+}
+
+.d-card-1,
+.d-card-3 {
+    position: absolute;
+    right: 5%;
+    top: 12%;
+    padding: 3rem;
+}
+
+.d-card-2 {
+    position: absolute;
+    left: 5%;
+    top: 12%;
+}
+
+.discount-field .discount-card {
+    width: 580px;
+    height: 390px;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.discount-field .discount-card span {
+    margin-right: 1.4rem;
+}
+
+.discount-field .discount-card h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 1.6rem 0 1rem 0;
+}
+
+.discount-field .discount-card p {
+    color: #5A5A5D;
+    line-height: 26px;
+}
+
+.discount-field .discount-card h5 {
+    font-weight: 800;
+    font-size: 1.4rem;
+    padding: 1rem 0 1.5rem 0;
+}
+.see-btn-field {
+    padding-top: 3rem;
+}
+
+/* Discount Section End */

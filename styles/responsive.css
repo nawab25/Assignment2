@@ -101,7 +101,8 @@
     }
 
     .destination-texts .section-description,
-    .facilities-texts .section-description {
+    .facilities-texts .section-description,
+    .discount-texts .section-description {
         width: 359px;
         text-align: center;
     }
@@ -115,18 +116,63 @@
     .bandarban {
         grid-column: span 12;
     }
+
     .destination-places .place-title {
         font-size: 1.3rem;
         font-weight: 700;
     }
 
     .facilities-cards {
-       flex-direction: column;
+        flex-direction: column;
     }
+
     .facilities-cards .card {
         width: 100%;
     }
+
     .facilities-cards .card {
         padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .discount-field .discount-card {
+        width: 303px;
+        height: 297px;
+        padding: 1.3rem;
+    }
+    .discount-card .extra {
+        display: none;
+    }
+    .discount-field .discount-card h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 1.3rem 0px .5rem;
+    }
+    .discount-card .primary-btn {
+        width: 130px;
+        height: 40px;
+        font-weight: 600;
+        border-radius: .4rem;
+    }
+    .discount-field .discount-card h5 {
+        font-weight: 700;
+        font-size: 1.3rem;
+        padding: 1rem 0 1.3rem 0;
+    }
+    .d-card-1, .d-card-3 {
+        right: 11%;
+        top: 35%;
+    }
+    .d-card-2 {
+        left: 10%;
+        top: 35%;
+    }
+    .discount-field .span-1 {
+        padding-right: 5rem;
+    }
+    .discount-field .span {
+        line-height: 1rem;
+    }
+    .see-btn-field {
+       display: none;
     }
 }
