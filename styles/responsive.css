@@ -100,8 +100,10 @@
         width: 100%;
     }
 
-    .destination-texts .section-description {
-        width: 400px;
+    .destination-texts .section-description,
+    .facilities-texts .section-description {
+        width: 359px;
+        text-align: center;
     }
 
     .maldives,
@@ -116,5 +118,15 @@
     .destination-places .place-title {
         font-size: 1.3rem;
         font-weight: 700;
+    }
+
+    .facilities-cards {
+       flex-direction: column;
+    }
+    .facilities-cards .card {
+        width: 100%;
+    }
+    .facilities-cards .card {
+        padding: 2rem 2rem 2rem 2rem;
     }
 }

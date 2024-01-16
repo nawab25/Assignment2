@@ -55,6 +55,10 @@ section {
     padding-top: 6rem;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Common CSS End  */
 
 /* Header CSS Start  */
@@ -191,11 +195,8 @@ select {
 
 /* Destination Tour Section Start */
 
-.destination-texts {
-    text-align: center;
-}
-
-.destination-texts .section-description {
+.destination-texts .section-description,
+.facilities-texts .section-description {
     width: 640px;
     padding: 1.5rem 0 3rem;
     margin: 0 auto;
@@ -245,7 +246,57 @@ select {
     color: #fff;
     font-weight: 800;
 }
+
 .destination-places .places img {
     width: 100%;
 }
+
 /* Destination Tour Section End */
+
+/* Facilities Tour Section Start */
+/* .facilities {
+    text-align: center;
+} */
+
+.facilities-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.facilities-cards .card {
+    width: 48%;
+    padding: 2rem 3.5rem 2rem 2rem;
+}
+
+.card-3 {
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid #e9444433;
+    background: #e944440d;
+}
+
+.card-1 {
+    border-radius: 16px;
+    border: 1px solid #fbb56333;
+    background: #fbb5630d;
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid #29cef633;
+    background: #29cef60d;
+}
+
+
+.facilities-cards .card h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 2rem 0 .7rem 0;
+}
+
+
+/* Facilities Tour Section End */
