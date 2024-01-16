@@ -6,6 +6,10 @@
         padding: 0 1.4rem;
     }
 
+    section {
+        padding-top: 2.5rem;
+    }
+
     .popular-tours,
     nav {
         flex-direction: column;
@@ -73,11 +77,44 @@
     }
 
     .popular-tours-texts ul {
-        padding-left: 1.4rem;
+        padding-left: 1.6rem;
     }
 
     .popular-tours {
         gap: 2rem;
-        padding-top: 2.5rem;
+    }
+
+    .destination-places {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.4rem;
+    }
+
+    .destination-places .places {
+        height: 176px;
+        width: 100%;
+    }
+
+    .destination-places .places img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .destination-texts .section-description {
+        width: 400px;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        grid-column: span 12;
+    }
+    .destination-places .place-title {
+        font-size: 1.3rem;
+        font-weight: 700;
     }
 }

@@ -51,6 +51,10 @@ nav .nav-list .active {
     line-height: 26px
 }
 
+section {
+    padding-top: 6rem;
+}
+
 /* Common CSS End  */
 
 /* Header CSS Start  */
@@ -169,7 +173,6 @@ select {
     justify-content: space-between;
     align-items: center;
     gap: 6.3rem;
-    padding-top: 6rem;
 }
 
 .popular-tours-texts p {
@@ -180,4 +183,69 @@ select {
     margin-top: 1rem;
 }
 
+.popular-tours-texts ul {
+    padding-left: 1.6rem;
+}
+
 /* Popular Tour Section End */
+
+/* Destination Tour Section Start */
+
+.destination-texts {
+    text-align: center;
+}
+
+.destination-texts .section-description {
+    width: 640px;
+    padding: 1.5rem 0 3rem;
+    margin: 0 auto;
+}
+
+.destination-places {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+}
+
+.maldives,
+.indonesia {
+    grid-column: span 6;
+}
+
+.srilanka {
+    grid-column: span 4;
+}
+
+.north-america {
+    grid-column: span 5;
+}
+
+.kashmir {
+    grid-column: span 3;
+}
+
+.bangladesh {
+    grid-column: span 5;
+}
+
+.bandarban {
+    grid-column: span 7;
+}
+
+.destination-places .places {
+    position: relative;
+}
+
+.destination-places .place-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 800;
+}
+.destination-places .places img {
+    width: 100%;
+}
+/* Destination Tour Section End */
