@@ -6,9 +6,10 @@
         padding: 0 1.4rem;
     }
 
+    .popular-tours,
     nav {
         flex-direction: column;
-        align-items: flex-start;
+        /* align-items: flex-start; */
     }
 
     nav .nav-logo {
@@ -59,11 +60,24 @@
 
     .banner-input-field input,
     select,
-    .primary-btn {
+    .banner-btn {
         width: 93%;
     }
 
     .banner-input-field {
         margin: 1.2rem auto 0;
+    }
+
+    .popular-tours-image img {
+        width: 100%;
+    }
+
+    .popular-tours-texts ul {
+        padding-left: 1.4rem;
+    }
+
+    .popular-tours {
+        gap: 2rem;
+        padding-top: 2.5rem;
     }
 }

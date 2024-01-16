@@ -39,6 +39,18 @@ nav .nav-list .active {
     font-weight: 700;
 }
 
+.section-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 26px
+}
+
 /* Common CSS End  */
 
 /* Header CSS Start  */
@@ -150,3 +162,22 @@ select {
 }
 
 /* Header CSS End  */
+
+/* Popular Tour Section Start */
+.popular-tours {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6.3rem;
+    padding-top: 6rem;
+}
+
+.popular-tours-texts p {
+    padding: 1rem 0;
+}
+
+.popular-tours-texts .primary-btn {
+    margin-top: 1rem;
+}
+
+/* Popular Tour Section End */
