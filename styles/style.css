@@ -256,6 +256,10 @@ select {
     font-weight: 800;
 }
 
+.destination-texts .section-description {
+    width: 692px;
+}
+
 .destination-places .places img {
     width: 100%;
 }
