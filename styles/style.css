@@ -1,0 +1,152 @@
+/* Mulish Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700;800;900&display=swap');
+
+/* Reset CSS Start*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Reset CSS End  */
+
+/* Common CSS Start  */
+main {
+    width: 81%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active,
+nav .nav-list .active {
+    color: #FF5400;
+}
+
+.primary-btn {
+    color: #fff;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* Common CSS End  */
+
+/* Header CSS Start  */
+.header {
+    width: 81%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 3rem;
+}
+
+nav .nav-logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo h2 {
+    margin-left: 1rem;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav .nav-list {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-list li a {
+    color: #424247;
+    font-size: 1.2rem;
+}
+
+nav .nav-logo i {
+    position: relative;
+    left: 26%;
+    font-size: 1.7rem;
+    display: none;
+    color: #424247;
+    cursor: pointer;
+}
+
+/* Banner Style */
+.banner {
+    height: 500px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("../Images/banner-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .9rem;
+}
+
+.banner-content {
+    position: relative;
+    top: 21%;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.banner p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    width: 653px;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    color: #fff;
+}
+
+.banner-input-field {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    padding-left: 32px;
+    width: 853px;
+    margin: 3rem auto 0;
+}
+
+.banner-input-field input,
+select,
+.primary-btn {
+    width: 174px;
+    height: 52px;
+    font-size: 1rem;
+    margin-right: 1.5rem;
+}
+
+.banner-input-field input,
+select {
+    color: rgba(19, 19, 24, 0.50);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0 1.4rem;
+    outline: none;
+}
+
+/* Header CSS End  */
