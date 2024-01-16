@@ -416,3 +416,98 @@ select {
 }
 
 /* Perfect-Place Section End */
+
+
+/* Newsletter Section Start */
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.newsletter-form {
+    width: 40%;
+    border: 1px solid #FF5400;
+    padding: 2.5rem;
+    border-radius: .7rem;
+}
+
+.newsletter-form h2 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsletter-form p {
+    padding: 1rem 0;
+}
+
+.newsletter-form input[type="text"],
+input[type="email"] {
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 96%;
+    margin-bottom: 1.2rem;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.newsletter-form input[type="text"],
+input[type="email"]:focus {
+    border: 1.5px solid #FF5400;
+}
+
+.newsletter-form input[type="submit"] {
+    width: 96%;
+}
+
+.newsletter-image {
+    width: 50%;
+    min-height: 422px;
+    background-image: url("../Images/Rectangle-8.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.newsletter-form hr {
+    width: 96%;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.newsletter-form input[type="text"] {
+    margin-top: 1.5rem;
+
+}
+
+.save-card {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    bottom: 47px;
+}
+
+.save-card h4 {
+    font-size: 1.5rem;
+}
+
+.save-card h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* Newsletter Section End */

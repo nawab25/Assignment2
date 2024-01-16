@@ -12,7 +12,9 @@
 
     .popular-tours,
     nav,
-    .perfect-place {
+    .perfect-place,
+    .facilities-cards,
+    .newsletter {
         flex-direction: column;
     }
 
@@ -122,10 +124,6 @@
         font-weight: 700;
     }
 
-    .facilities-cards {
-        flex-direction: column;
-    }
-
     .facilities-cards .card {
         width: 100%;
     }
@@ -201,4 +199,11 @@
     .perfect-place-right-video video {
         border-radius: 1.5rem;
     }
+    .newsletter-form {
+        width: 100%;
+    }
+    .newsletter-image {
+        width: 100%;
+    }
+    
 }
