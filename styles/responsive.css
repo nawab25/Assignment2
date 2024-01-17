@@ -1,3 +1,5 @@
+/* Responsive for mobile  */
+
 @media screen and (max-width:600px) {
 
     .header,
@@ -247,5 +249,131 @@
         width: 285px;
         height: 105px;
         right: 8px;
+    }
+
+    .footer .section-description {
+        width: 335px;
+        margin: 0 auto;
+    }
+}
+
+
+/* Responsive for Medium devices  */
+
+@media screen and (min-width: 600px) and (max-width:992px) {
+
+    .header,
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    section {
+        padding-top: 2rem;
+    }
+
+    .banner-input-field {
+        padding: 1rem;
+        width: 542px;
+        margin: 2rem auto 0;
+    }
+
+    .banner-input-field input,
+    select,
+    .primary-btn {
+        width: 203px;
+        margin: 1rem 1rem;
+    }
+
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .footer .section-description {
+        width: 497px;
+    }
+
+    .footer {
+        padding: 3rem 5rem 1rem;
+    }
+
+    .facilities-cards .card {
+        width: 47%;
+        padding: 1rem 1.7rem 1rem 2rem;
+    }
+
+    .perfect-place-left-text .section-title {
+        padding: 0 1rem 1rem 0;
+    }
+
+    .feedback-fields {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .nav-list li a {
+        margin-right: 1rem;
+    }
+}
+
+
+/* Responsive for large devices  */
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+
+    .header,
+    main {
+        width: 85%;
+    }
+
+    section {
+        padding-top: 2.5rem;
+    }
+
+    .banner-input-field {
+        padding: 1rem;
+        width: 542px;
+        margin: 2rem auto 0;
+    }
+
+    .banner-input-field input,
+    select,
+    .primary-btn {
+        width: 203px;
+        margin: 1rem 1rem;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+    }
+
+    .banner p {
+        padding-top: 1rem;
+    }
+
+    .popular-tours {
+        gap: 1.4rem;
+    }
+
+    .popular-tours-texts ul {
+        padding-left: 1rem;
+    }
+
+    .discount-field {
+        border-radius: 1rem;
+    }
+
+    .perfect-place-left-text .section-title {
+        padding: 0 1rem 1rem 0;
+    }
+
+    .feedback-card {
+        padding: 1rem;
+        height: 442px;
+    }
+
+    .feedback-fields {
+        gap: .7rem;
     }
 }
