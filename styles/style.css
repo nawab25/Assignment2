@@ -109,8 +109,8 @@ nav .nav-list {
 }
 
 nav .nav-logo i {
-    margin-left: 8rem;
-    font-size: 1.7rem;
+    margin-left: 5.5rem;
+    font-size: 1.6rem;
     display: none;
     color: #424247;
     cursor: pointer;
@@ -315,6 +315,7 @@ select {
     min-height: 500px;
     width: 100%;
     margin-bottom: 1.5rem;
+    position: relative;
 }
 
 .discount .field-1,
@@ -323,14 +324,12 @@ select {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    position: relative;
 }
 
 .discount .field-2 {
     background-image: url("../Images/Group-40.png");
     background-repeat: no-repeat;
     background-position: center center;
-    position: relative;
     background-size: cover;
 }
 
@@ -339,7 +338,6 @@ select {
     position: absolute;
     right: 5%;
     top: 12%;
-    padding: 3rem;
 }
 
 .d-card-2 {
@@ -444,7 +442,7 @@ select {
 .feedback-card {
     box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    height: 440px;
+    height: 411px;
     border-radius: 40px 0 40px 0;
 }
 
