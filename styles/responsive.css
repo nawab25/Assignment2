@@ -24,24 +24,18 @@
     }
 
     nav .nav-list {
-        width: 100%;
-        flex-direction: column;
-        height: 20vh;
-        background-color: #FF5400;
-        position: absolute;
-        left: -100%;
-        top: 90px;
-        text-align: center;
-        transition: all .5s;
+        display: none;
 
+    }
+
+    .nav-logo h2,
+    .footer-logo h2 {
+        margin-left: .5rem;
+        font-size: 29px;
     }
 
     nav .nav-logo i {
         display: block;
-    }
-
-    nav .nav-logo i:hover {
-        left: 0;
     }
 
     .banner h1 {
@@ -239,4 +233,9 @@
         font-size: 2rem;
     }
 
+    .save-card {
+        width: 285px;
+        height: 105px;
+        right: 8px;
+    }
 }

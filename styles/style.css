@@ -109,8 +109,7 @@ nav .nav-list {
 }
 
 nav .nav-logo i {
-    position: relative;
-    left: 26%;
+    margin-left: 8rem;
     font-size: 1.7rem;
     display: none;
     color: #424247;
@@ -574,6 +573,7 @@ input[type="email"]:focus {
 
 .save-card h4 {
     font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .save-card h3 {
